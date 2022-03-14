@@ -1,0 +1,112 @@
+header{
+    background-color:burlywood;
+    font-size:large;
+}
+nav{
+    background-color:white;
+    color:blue;
+    font-size:xx-large;
+}
+h2{
+    background-color:yellow;
+}
+.black-border{
+    border:solid;
+    padding-left:1em;
+}
+.pic{
+    width:305px;
+}
+body{
+    background-color:cyan;
+}
+.one{
+    background-color:darkolivegreen;
+    color:white;
+    font-size: medium;
+}
+.two{
+    background-color:blueviolet;
+    color:pink;
+}
+.three{
+    background-color:yellowgreen;
+}
+.four{
+    background-color:brown;
+    color:white;
+}
+.five{
+    background-color:red;
+    color:white;
+}
+.six{
+    background-color:green;
+    color:honeydew;
+}
+@media (min-width:768px) {
+    header{
+        background-color:rgb(221, 122, 155);
+        font-size:large
+    }
+    .black-border{
+        background-color:indigo;
+        color:white;
+        padding-left:8em;
+    }
+    body{
+        background-color:darkkhaki;
+    }
+    .pic{
+        width:750px;
+    }
+    .one{
+        background-color:khaki;
+        color:green;
+        font-size:x-large;
+    }
+    .two{
+        background-color:pink;
+        color:rgb(167, 11, 94);
+        font-size:x-large;
+    }
+    .three{
+        background-color:rgb(189, 170, 255);
+        color:rgb(138, 7, 7);
+        font-size:x-large;
+    }
+    .four{
+        background-color:rgb(24, 128, 119);
+        color:white;
+        font-size:x-large;
+    }
+    .five{
+        background-color:rgb(54, 54, 238);
+        color:white;
+        font-size:x-large;
+    }
+    .six{
+        background-color: rebeccapurple;
+        color:white;
+        font-size:x-large;
+    }
+}
+@media(min-width:1024px){
+    .pic{
+        width:1015px
+    }
+    .black-border{
+            background-color:rgb(8, 42, 70);
+            color:white;
+            padding-left:13em;
+    }
+    body{
+        background-color:lavender;
+    }
+    h1{
+        background-color:lightcoral;
+    }
+    nav{
+        background-color:lightpink
+    }
+}

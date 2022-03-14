@@ -1,0 +1,102 @@
+.container{
+    display:grid;
+    grid-template-columns:150px 150px;
+    grid-template-rows: repeat(4,1fr);
+    grid-gap:2px;
+}
+nav{
+    background-color:yellow;
+    font-size:larger;
+}
+h1{
+    background-color:rgb(167, 76, 66);
+    color:white;
+}
+body{
+    background-color:rgb(139, 80, 27);
+}
+footer{
+    background-color:chocolate;
+}
+.one{
+    background-color:burlywood;
+    color:black;
+}
+.daryl{
+    width:140px;
+}
+.two{
+    background-color: darkslategray;
+    color:white;
+}
+.carol{
+    width:145px
+}
+.three{
+    background-color:dodgerblue;
+    color:white;
+}
+.carl{
+    width:145px
+}
+.four{
+    background-color:rgb(160, 182, 35)
+}
+.rick{
+    width:145px;
+}
+.five{
+    background-color:gray;
+    color:white;
+}
+.michonne{
+    width:145px;
+}
+.six{
+    background-color:honeydew;
+    color:rgb(78, 9, 9);
+}
+.maggie{
+    width:145px;
+}
+@media(min-width:768px){
+    body{
+        background-color:rgb(66, 37, 13);
+    }
+    h1{
+        background-color:rgb(66,37,13)
+    }
+.container{
+    display:grid;
+    grid-template-columns:250px 250px 250px;
+    grid-template-rows: repeat(3,1fr);
+}
+}
+@media(min-width:1024px){
+    .container{
+        display:grid;
+        grid-template-columns:251px 251px 251px 251px;
+    }
+    .daryl{
+        width:250px;
+    }
+    .carol{
+        width:250px;
+    }
+    .carl{
+        width:250px;
+    }
+    .rick{
+        width:250px;
+    }
+    .michonne{
+        width:250px;
+    }
+    .maggie{
+        width:250px;
+    }
+    footer{
+        color:white;
+        background-color:rgb(175, 114, 35);
+    }
+}
